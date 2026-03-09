@@ -111,9 +111,9 @@ export const Scanner: React.FC<ScannerProps> = ({ onScan, onClose }) => {
                         <div className="scanner-viewfinder">
                             <div className="scanner-line"></div>
                         </div>
-                        <div style={{ position: 'absolute', bottom: '10%', width: '100%', textAlign: 'center', zIndex: 10 }}>
-                            <p style={{ color: 'white', backgroundColor: 'rgba(0,0,0,0.5)', display: 'inline-block', padding: '12px 20px', borderRadius: '24px', backdropFilter: 'blur(4px)', fontSize: '14px', maxWidth: '80%' }}>
-                                Gire o celular na horizontal para ler o código no centro do retângulo
+                        <div style={{ position: 'absolute', bottom: '15%', width: '100%', textAlign: 'center', zIndex: 10 }}>
+                            <p style={{ color: 'white', backgroundColor: 'rgba(0,0,0,0.5)', display: 'inline-block', padding: '8px 16px', borderRadius: '20px', backdropFilter: 'blur(4px)' }}>
+                                Posicione o código de barras no centro
                             </p>
                         </div>
                     </>

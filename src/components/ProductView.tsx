@@ -15,7 +15,15 @@ export const ProductView: React.FC<ProductViewProps> = ({ product, onBack }) => 
     const slides = [];
     if (product.image1_url) slides.push({ type: 'img', url: product.image1_url });
     if (product.image2_url) slides.push({ type: 'img', url: product.image2_url });
-    if (product.video_url) slides.push({ type: 'video', url: product.video_url });
+
+    if (product.video_url) {
+        let videoUrl = product.video_url;
+        // Convert YouTube Shorts URL to embed URL
+        if (videoUrl.includes('youtube.com/shorts/')) {
+            videoUrl = videoUrl.replace('youtube.com/shorts/', 'youtube.com/embed/');
+        }
+        slides.push({ type: 'video', url: videoUrl });
+    }
 
     return (
         <div className="animate-fade-in" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
