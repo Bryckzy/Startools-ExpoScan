@@ -86,9 +86,20 @@ export const Scanner: React.FC<ScannerProps> = ({ onScan, onClose }) => {
             <div style={{ flex: 1, position: 'relative', overflow: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 
                 {isInitializing && !error && (
-                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '16px', color: 'var(--color-primary)', zIndex: 20 }}>
+                    <div style={{
+                        position: 'absolute',
+                        top: '50%',
+                        left: '50%',
+                        transform: 'translate(-50%, -50%)',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        gap: '16px',
+                        color: 'var(--color-primary)',
+                        zIndex: 20
+                    }}>
                         <Loader2 className="animate-spin" size={48} />
-                        <p style={{ fontWeight: 500 }}>Iniciando câmera...</p>
+                        <p style={{ fontWeight: 600, textShadow: '0 2px 4px rgba(0,0,0,0.5)' }}>Iniciando câmera...</p>
                     </div>
                 )}
 

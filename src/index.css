@@ -285,11 +285,18 @@ input[type="search"]:focus {
   position: relative;
 }
 
-.embla__slide img,
+.embla__slide img {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+  display: block;
+  border: none;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
 .embla__slide iframe {
   width: 100%;
-  height: 300px;
-  object-fit: cover;
+  height: 400px;
   display: block;
   border: none;
 }
