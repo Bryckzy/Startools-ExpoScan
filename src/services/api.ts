@@ -5,10 +5,10 @@ const MOCK_PRODUCTS: Product[] = [
     {
         id: 1,
         gtin13: '7891234567890',
-        name: 'Politriz Angular 1200W',
-        description: 'Politriz profissional com motor de alta potência...',
-        image1_url: 'https://via.placeholder.com/600x600/FFD100/111111?text=Politriz+Angular',
-        image2_url: 'https://via.placeholder.com/600x600/111111/FFD100?text=Politriz+Detalhe',
+        name: 'Mini Serra Elétrica',
+        description: 'Mini Serra Elétrca com motor de alta potência...',
+        image1_url: 'https://res.cloudinary.com/dz0o7uk3d/image/upload/v1773077006/AR0476_04_1_hjejpl.jpg',
+        image2_url: 'https://res.cloudinary.com/dz0o7uk3d/image/upload/v1773077006/AR0476_04_1_hjejpl.jpg',
         video_url: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Never gonna give you up
         created_at: new Date().toISOString(),
         updated_at: new Date().toISOString(),
