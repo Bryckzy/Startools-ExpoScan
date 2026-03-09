@@ -4,9 +4,9 @@ import type { Product } from '../types';
 const MOCK_PRODUCTS: Product[] = [
     {
         id: 1,
-        gtin13: '7891234567890',
+        gtin13: '7891024110348',
         name: 'Mini Serra Elétrica',
-        description: 'Mini Serra Elétrca com motor de alta potência...',
+        description: 'A Mini Motosserra Elétrica Startools foi desenvolvida para oferecer potência, praticidade e precisão em trabalhos de poda e corte leve. Compacta e ergonômica, é ideal para cortar galhos, pequenos troncos e madeira em atividades de jardinagem e manutenção. Seu motor elétrico de alto desempenho proporciona cortes rápidos e eficientes, enquanto o design leve permite uso confortável com uma mão.',
         image1_url: 'https://res.cloudinary.com/dz0o7uk3d/image/upload/v1773077006/AR0476_04_1_hjejpl.jpg',
         image2_url: 'https://res.cloudinary.com/dz0o7uk3d/image/upload/v1773077006/AR0476_04_1_hjejpl.jpg',
         video_url: 'https://www.youtube.com/embed/dQw4w9WgXcQ', // Never gonna give you up
