@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /catalog/
+Disallow: /catalogs/
+Sitemap: https://expopulse-nu.vercel.app/sitemap.xml
